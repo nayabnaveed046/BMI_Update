@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const activationcolor = Colors.cyan;
+const activationcolor = Colors.pink;
 const deactivationcolor = Color(0xFF1D1E33);
 
 const ConstentTextLabel = TextStyle(
@@ -10,7 +10,7 @@ const ConstentTextLabel = TextStyle(
 
 const ConstentTextLabe2 = TextStyle(
   fontSize: 35,
-  fontWeight: FontWeight.w900,
+  fontWeight: FontWeight.bold,
 );
 
 const ConstentTextLabe3 = TextStyle(
@@ -19,11 +19,11 @@ const ConstentTextLabe3 = TextStyle(
 );
 
 const Result1 = TextStyle(
-  color: Colors.greenAccent,
-  fontSize: 20.0,
+  color: Colors.pinkAccent,
+  fontSize: 22.0,
 );
 const Result2 = TextStyle(
   color: Colors.white,
-  fontSize: 80.0,
+  fontSize: 78.0,
   fontWeight: FontWeight.w900,
 );
