@@ -11,10 +11,10 @@ class Repeate_contanier extends StatelessWidget {
       onTap: onpressed,
       child: Container(
         child: cardWidge,
-        margin: EdgeInsets.all(10.0),
+        margin: EdgeInsets.all(8.0),
         decoration: BoxDecoration(
             color: colors,
-            borderRadius: BorderRadiusDirectional.circular(20.0)),
+            borderRadius: BorderRadiusDirectional.circular(18.0)),
       ),
     );
   }
