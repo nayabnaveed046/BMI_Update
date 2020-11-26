@@ -20,12 +20,12 @@ class _InputPageState extends State<InputPage> {
   Gender selectGender;
   int slider_height = 100;
   int slider_weight = 40;
-  int sliderage = 20;
+  int sliderage = 19;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BMI Calculator'),
+        title: Text('BMI Updated App'),
       ),
       body: Column(
         children: [
@@ -60,7 +60,7 @@ class _InputPageState extends State<InputPage> {
                   //),
                 ),
                 Expanded(
-                  child: Repeate_contanier(
+                  child: contanier(
                     onpressed: () {
                       setState(
                         () {
@@ -85,7 +85,7 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               children: [
                 Expanded(
-                  child: Repeate_contanier(
+                  child contanier(
                     colors: Color(0xFF1D1E33),
                     cardWidge: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -127,7 +127,7 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               children: [
                 Expanded(
-                  child: Repeate_contanier(
+                  child: contanier(
                     cardWidge: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
