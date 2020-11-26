@@ -127,7 +127,7 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               children: [
                 Expanded(
-                  child: contanier(
+                  child: Repeate_contanier(
                     cardWidge: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
