@@ -2,8 +2,11 @@
 
 ## Sample...
 
+Nayab Naveed
+FA17-BSE-035
 
 Screenshot BMI Calculator
+![Screenshot_1606313354](https://user-images.githubusercontent.com/74626400/100335875-513ee200-2f8a-11eb-90c8-5604e361fb1d.png)
 
 ## What you will learn
 
