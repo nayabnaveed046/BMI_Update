@@ -25,11 +25,11 @@ class Calculation {
 
   String get_suggestion() {
     if (_result >= 25) {
-      return 'You have a higher than Normal body weight. Try to more Exercise';
+      return 'kindly reduce your weight through exercise please ';
     } else if (_result > 18 && _result < 25) {
-      return 'You hve a Normal Body Weight. Good Job';
+      return 'Your weight is perfect.That is Good';
     } else {
-      return 'You have a lower than Normal body weight. You need to eat bit more and then you are healthy';
+      return 'Your weight is low kindly pay some attention on your food and gain some weight';
     }
   }
 }
