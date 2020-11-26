@@ -13,6 +13,7 @@ class Calculation {
     return _result.toStringAsFixed(1);
   }
 
+
   String get_result() {
     if (_result >= 25) {
       return 'Over Weight';
