@@ -16,7 +16,10 @@ class SplashScreen extends StatelessWidget {
     );
   }
 }
-
+class MySplashScreen extends StatefulWidget {
+  @override
+  _MySplashScreenState createState() => _MySplashScreenState();
+}
 
 class MySplashScreen extends StatefulWidget {
   @override
