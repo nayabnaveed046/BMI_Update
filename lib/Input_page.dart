@@ -251,13 +251,13 @@ class RoundIcon extends StatelessWidget {
     return RawMaterialButton(
       child: Icon(
         icondata,
-        color: Colors.black,
+        color: Colors.pink,
       ),
       onPressed: onPress,
-      elevation: 6,
-      constraints: BoxConstraints.tightFor(height: 50.0, width: 50.0),
+      elevation: 8,
+      constraints: BoxConstraints.tightFor(height: 48.0, width: 48.0),
       shape: CircleBorder(),
-      fillColor: Colors.grey,
+      fillColor: Colors.purpleAccent,
     );
   }
 }
