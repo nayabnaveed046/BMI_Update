@@ -21,11 +21,6 @@ class MySplashScreen extends StatefulWidget {
   _MySplashScreenState createState() => _MySplashScreenState();
 }
 
-class MySplashScreen extends StatefulWidget {
-  @override
-  _MySplashScreenState createState() => _MySplashScreenState();
-}
-
 class _MySplashScreenState extends State<MySplashScreen> {
 
   @override
@@ -44,7 +39,7 @@ class _MySplashScreenState extends State<MySplashScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          Image.asset('images/icon.png', height: 200.0, width: 200,),
+          Image.asset('images/icon.png', height: 150.0, width: 180,),
 
           SizedBox( height: 20.0),
 
