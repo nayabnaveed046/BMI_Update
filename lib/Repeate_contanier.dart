@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bmi_calculator/calculation.dart'
+
 class Repeate_contanier extends StatelessWidget {
   Repeate_contanier({@required this.colors, this.cardWidge, this.onpressed});
   final Color colors;
